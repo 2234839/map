@@ -6,7 +6,7 @@ export function Header() {
 	return (
 		<header>
 			<nav>
-				<a href="/" class={url == '/' && 'active'}>
+				<a href="/" class={`border-solid border-2 border-indigo-600 ${url == '/' && 'bg-amber-950'}`} >
 					Home
 				</a>
 				<a href="/404" class={url == '/404' && 'active'}>

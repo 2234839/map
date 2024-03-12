@@ -10,8 +10,8 @@ import './style.css';
 export function App() {
 	return (
 		<LocationProvider>
+			<main className="min-h-screen">
 			<Header />
-			<main>
 				<Router>
 					<Route path="/" component={Home} />
 					<Route default component={NotFound} />
